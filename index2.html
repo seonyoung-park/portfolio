@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Park's Portfolio </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/pageScroll_3.3.js"></script>
+    <script src="js/jquery.lineProgressbar.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/side.js"></script>
+    <script type="text/javascript" src="js/jquery.shuffleText.js"></script>
+    <script type="text/javascript" src="js/typed.min.js"></script>
+  </head>
+  <body>
+     <section id="page1">
+       <div id="particles-js">
+         <header>
+             <h1>
+                 <a href="#">
+                    <img src="img/logo3.png" alt="logo" id="logo">
+                 </a>
+             </h1>
+             <div>
+                <img src="img/nav.png" alt="nav button" id="nav">
+                <div class="side">
+                    <ul>
+                       <li>
+                           <i class="material-icons">clear</i>
+                       </li>
+                       <li title="page2">ABOUT ME</li>
+                       <li title="page3">CAREER</li>
+                       <li title="page4">WEB DESIGN</li>
+                       <li title="page5">UX/UI DESIGN</li>
+                       <li title="page6">WORKS</li>
+                    </ul>
+                </div>
+             </div>
+         </header>
+         <div class="box">
+             <span id="typed"></span>
+              <script>
+                        $('document').ready(function(){
+                          var typed = new Typed('#typed',{
+                            strings:[
+                              " Welcome to Park's Portfolio",
+                              "디자이너를 시작으로",
+                              "지금,",
+                              "웹퍼블리셔로서", "새로운 커리어에 도전합니다."
+                            ],
+                            backSpeed:60,
+                            typeSpeed:60,
+                            loop: true
+                          });
+                        });
+              </script>
+         </div>
+         <div id="down">
+             <img src="img/scroll.png" alt="scroll down">
+         </div>
+        </div>
+        <script src="js/particles.min.js"></script>
+        <script src="js/app.js"></script>
+     </section>
+     <div class="side">
+          <ul>
+             <li title="page6">WORKS<span></span></li>
+             <li title="page5">UX/UI DESIGN <span></span></li>
+             <li title="page4">WEB  DESIGN <span></span></li>
+             <li title="page3">CAREER <span></span></li>
+             <li title="page2">ABOUT ME <span></span></li>
+           </ul>
+     </div>
+     <section id="page2">
+            <section class="container">
+                 <h2>
+                     <div></div>ABOUT ME
+                 </h2>
+                 <div class="wrap">
+                     <div id="profile">
+                         <div>
+                             <h3>PROFILE</h3>
+                         </div>
+                         <table>
+                            <tbody>
+                                <tr>
+                                   <td>Name</td>
+                                   <td>박선영</td>
+                                </tr>
+                                <tr>
+                                   <td>Email</td>
+                                   <td>sinvi77@gmail.com</td>
+                                </tr>
+                                <tr>
+                                   <td>Phone</td>
+                                   <td>010.9525.6619</td>
+                                </tr>
+                                <tr>
+                                   <td>Date of birth</td>
+                                   <td>1981.05.29</td>
+                                </tr>
+                                <tr>
+                                   <td>Address</td>
+                                   <td>경기도 용인시 수지구 동천동</td>
+                                </tr>
+                            </tbody>
+                         </table>
+                     </div>
+                    <!-- <div id="likes">
+                        <div>
+                           <h3>LIKES</h3>
+                        </div>
+                        <ul>
+                           <li>
+                               <i class="fa fa-camera-retro" aria-hidden="true"></i>
+                           </li>
+                           <li>
+                               <i class="fa fa-music" aria-hidden="true"></i>
+                           </li>
+                           <li>
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                           </li>
+                           <li>
+                               <i class="fa fa-film" aria-hidden="true"></i>
+                           </li>
+                        </ul>
+                     </div> -->
+                     <div id="photo">
+                         <img src="img/photo.png" alt="프로필">
+                     </div>
+                     <div id="skills">
+                            <div class="title">
+                                 <h3>SKILLS</h3>
+                            </div>
+                            <table>
+                               <tbody>
+                                   <tr>
+                                      <td>
+                                          <img src="img/skill1.png" alt="photoshop">
+                                      </td>
+                                      <td>
+                                          <p>80%</p>
+                                          <p>Adobe Photoshop</p>
+                                          <p>
+                                            <div id="demoprogressbar1">
+                                                <div class="progressbar">
+                                                      <div class="proggress"></div>
+                                                      <div class="percentCount"></div>
+                                                </div>
+                                            </div>
+                                          </p>
+                                          <p></p>
+                                      </td>
+                                   </tr>
+                                   <tr>
+                                      <td>
+                                          <img src="img/skill2.png" alt="Illustrator">
+                                      </td>
+                                      <td>
+                                          <p>80%</p>
+                                          <p>Adobe Illustrator</p>
+                                          <p>
+                                              <div id="demoprogressbar2">
+                                                   <div class="proggress"></div>
+                                                   <div class="percentCount"></div>
+                                              </div>
+                                          </p>
+                                          <p></p>
+                                      </td>
+                                   </tr>
+                                   <tr>
+                                      <td>
+                                            <img src="img/skill3.png" alt="Rhino 5.0">
+                                      </td>
+                                      <td>
+                                          <p>50%</p>
+                                          <p>Rhino 5.0</p>
+                                          <p>
+                                              <div id="demoprogressbar3">
+                                                   <div class="proggress"></div>
+                                                   <div class="percentCount"></div>
+                                              </div>
+                                          </p>
+                                          <p></p>
+                                      </td>
+                                   </tr>
+                                   <tr>
+                                      <td>
+                                          <img src="img/skill4.png" alt="Keyshot">
+                                      </td>
+                                      <td>
+                                          <p>50%</p>
+                                          <p>Keyshot</p>
+                                          <p>
+                                              <div id="demoprogressbar4">
+                                                   <div class="proggress"></div>
+                                                   <div class="percentCount"></div>
+                                              </div>
+                                          </p>
+                                          <p></p>
+                                      </td>
+                                   </tr>
+                                   <tr>
+                                      <td>
+                                          <img src="img/skill5.png" alt="Html5 & CSS3">
+                                      </td>
+                                      <td>
+                                          <p>60%</p>
+                                          <p>Html5 & CSS3</p>
+                                          <p>
+                                              <div id="demoprogressbar5">
+                                                   <div class="proggress"></div>
+                                                   <div class="percentCount"></div>
+                                              </div>
+                                          </p>
+                                          <p></p>
+                                      </td>
+                                   </tr>
+                                   <tr>
+                                      <td>
+                                          <img src="img/skill6.png" alt="jQuery">
+                                      </td>
+                                      <td>
+                                          <p>50%</p>
+                                          <p>jQuery</p>
+                                          <p>
+                                              <div id="demoprogressbar6">
+                                                   <div class="proggress"></div>
+                                                   <div class="percentCount"></div>
+                                              </div>
+                                          </p>
+                                          <p></p>
+                                      </td>
+                                   </tr>
+                               </tbody>
+                            </table>
+                     </div>
+                     <div id="lang">
+
+                     </div>
+                 </div>
+            </section>
+     </section>
+     <section id="page3">
+             <section class="container">
+                   <h2><div></div>CAREER</h2>
+                   <div class="wrap">
+                       <div id="edu">
+                            <div class="title">
+                                <h3>EDUCATiON & EXPERIENCE</h3>
+                            </div>
+                            <table>
+                               <tbody>
+                                 <tr>
+                                    <td>2018.08</td>
+                                    <td>
+                                       <i class="fa fa-building" aria-hidden="true"></i>
+                                    </td>
+                                    <td>(주)로씨 - 남대문 패션 주얼리</td>
+                                 </tr>
+                                 <tr>
+                                    <td>2018.05~06</td>
+                                    <td>
+                                       <i class="fa fa-building" aria-hidden="true"></i>
+                                    </td>
+                                    <td>(주)골드팡(주얼리 온라인 쇼핑몰)<br> </td>
+                                 </tr>
+                                  <tr>
+                                     <td>2017.02~2018.04</td>
+                                     <td>
+                                        <i class="fa fa-building" aria-hidden="true"></i>
+                                     </td>
+                                     <td>(주)아이티콤 근무</td>
+                                  </tr>
+                                  <tr>
+                                     <td>2013.10~2016.12</td>
+                                     <td>
+                                         <i class="fa fa-building" aria-hidden="true"></i>
+                                     </td>
+                                     <td>(주)VHMD 무역회사 창업 (디자인 및 바이어발굴)- 2016년12월 폐업</td>
+                                  </tr>
+                                  <tr>
+                                     <td>2013.2</td>
+                                     <td>
+                                         <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                     </td>
+                                     <td>그린컴퓨터학원 html5&css3 웹표준 및 자바스크립트 과정수료</td>
+                                  </tr>
+                                  <tr>
+                                     <td>2005.2~2013.7</td>
+                                     <td>
+                                         <i class="fa fa-building" aria-hidden="true"></i>
+                                     </td>
+                                     <td>(주)아이티콤 근무 웹디자인 및 사무</td>
+                                  </tr>
+                                  <tr>
+                                     <td>2003.2</td>
+                                     <td>
+                                         <i class="fa fa-building" aria-hidden="true"></i>
+                                     </td>
+                                     <td>광주 일신쇼핑몰 상세페이지 디자인</td>
+                                  </tr>
+                                  <tr>
+                                     <td>2002.7</td>
+                                     <td>
+                                         <i class="fa fa-building" aria-hidden="true"></i>
+                                     </td>
+                                     <td>광주연합 컴퓨터학원 웹디자인과정 수료</td>
+                                  </tr>
+                                  <tr>
+                                     <td>2002.2</td>
+                                     <td>
+                                         <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                     </td>
+                                     <td>광주 동강대학교 정보산업디자인학과 졸업</td>
+                                  </tr>
+                               </tbody>
+                            </table>
+                       </div>
+                       <div id="license">
+
+                           <div class="title">
+                                <h3>LICENSE</h3>
+                           </div>
+                           <table>
+                               <tbody>
+                                  <tr>
+                                     <td>2002.02</td>
+                                     <td>컴퓨터그래픽스 운용기능사</td>
+                                  </tr>
+                                  <tr>
+                                     <td>2009.01</td>
+                                     <td>JLPT 2급</td>
+                                  </tr>
+
+                               </tbody>
+                           </table>
+                       </div>
+                   </div>
+             </section>
+     </section>
+     <section id="page4">
+            <section class="container">
+                <h2>
+                   <div></div>
+                   WEB DESIGN
+                </h2>
+                <div>
+                   <ul>
+                      <li id="web1">
+                          <div>
+                              <img src="img/web1.png" alt="subway">
+                              <div class="blackbg">
+                                   <a href="web01.html" type="_blank">
+                                        <img src="img/direct.png" alt="direction">
+                                   </a>
+                              </div>
+                            </div>
+                              <h4>iloom 홈페이지 리뉴얼</h4>
+                              <p>
+                                 사용프로그램 : Photoshop, Illustrator, atom<br>제작시기 : 2018.10<br>참여도 : 디자인 100%, 코딩 100%
+                              </p>
+                              <p>최신 웹트렌드에 따라 카드그리드로 콘텐츠를 정리하였으며, 플래시로 제작된 기존 메인 배너를 슬라이더를 사용하여 나타내었습니다. 메뉴 이용 빈도수에 따라 IA를 재정비하여 사용자의 편의성을 높였으며, 이미지 사용으로 가독성을 높이고 시각적으로 집중할 수 있게 하였습니다. 그리드에는 grey를 사용하여 깔끔한 느낌을 주는 반면, 로고의 red색상을 사용해 포인트를 주었습니다. </p>
+
+                      </li>
+                      <li id="web2">
+                           <div>
+                               <img src="img/web3.png" alt="library">
+                               <div class="blackbg">
+                                  <a href="#">
+                                        <img src="img/direct.png" alt="direction">
+                                  </a>
+                               </div>
+                               </div>
+                               <h4>베어스캐슬 웨딩홀 홈페이지 리뉴얼</h4>
+                               <p>
+                                   사용프로그램 : photoshop, illustrator<br> 제작시기 : 9월 <br>
+                               </p>
+                               <p>기존의 노후화 된 홈페이지에 최신 트렌드에 맞는 디자인을 반영하여 웨딩홀의 고급스러운 이미지를 제공하고자 하였습니다. 사용자들이 가장 궁금해할 웨딩홀의 시설을 이미지 슬라이드로 노출 시킴으로써 첫눈에 좋은 인상을 남기도록 디자인 하였습니다. 좋은 인상을 남긴 후 바로 상담신청이 가능하도록 header부분에 버튼을 fix하여 사용자의 유입이 쉽도록 하였고 반응형 웹으로 제작하여 웹 접근성을 확보하였습니다.</p>
+
+                      </li>
+                      <li id="web3">
+                           <div>
+                               <img src="img/web3.png" alt="Ghirardelli">
+                               <div class="blackbg">
+                                   <a href="web03.html">
+                                       <img src="img/direct.png" alt="direction">
+                                   </a>
+                               </div>
+                            </div>
+                               <h4>작업중</h4>
+                               <p>
+                                  사용프로그램 <br> 제작시기 <br>
+                               </p>
+                               <p>
+                                   준비중
+                               </p>
+
+                      </li>
+
+                   </ul>
+                </div>
+            </section>
+     </section>
+     <section id="page5">
+            <section class="container">
+              <h2><div></div>UX/UI DESIGN</h2>
+              <div>
+                  <img src="img/uxui.png" alt="wanja">
+                  <div class="blackbg">
+                      <a href="#">
+                          <img src="img/direct.png" alt="direction">
+                      </a>
+                  </div>
+              </div>
+              <div class="text">
+                 <h3>
+                      준비중
+                      <span>준비중</span>
+                 </h3>
+                 <p>사용프로그램 : wireframe, adobe XD(프로토타입), Photoshop, Illustrator</p>
+                 <p>제작시기 : 2018</p>
+                 <p>
+                     준비중
+                 </p>
+              </div>
+
+            </section>
+     </section>
+     <section id="page6">
+            <section class="container">
+                <h2><div></div>WORKS</h2>
+                <div id="wrap">
+                    <ul>
+                       <li id="work">
+                          <img src="img/work_org01.jpg" alt="work1">
+                       </li>
+                       <li id="work">
+                          <img src="img/work_org03.jpg" alt="work3">
+                       </li>
+                       <li id="work">
+                          <img src="img/work_org05.jpg" alt="work5">
+                       </li>
+                       <li id="work">
+                          <img src="img/work_org07.jpg" alt="work7">
+                       </li>
+                       <li id="work">
+                          <img src="img/work_org02.jpg" alt="work2">
+                       </li>
+                       <li id="work">
+                          <img src="img/work_org04.jpg" alt="work4">
+                       </li>
+                       <li>
+                          <a href="es.html" type="_blank">
+                             <img src="img/work_org06.jpg" alt="work6">
+                          </a>
+                       </li>
+                       <li id="work">
+                         <a href="bigboss.html">
+                          <img src="img/work_org08.jpg" alt="work8">
+                          </a>
+                       </li>
+                    </ul>
+                </div>
+                <div class="modal">
+                     <span>
+                           <img src="img/exit.png" alt="exit">
+                     </span>
+                     <img class="modalimg" src(unknown)>
+                     <p class="modaltext"></p>
+                </div>
+            </section>
+     </section>
+  </body>
+</html>
