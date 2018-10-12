@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2|Libre+Barcode+128+Text|Noto+Sans');
 @import url('https://fonts.googleapis.com/css?family=Hi+Melody');
 @import url('https://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 /*reset*/
 *{padding: 0;margin: 0;box-sizing: border-box;}
 section, header, nav, footer, aside, article {display: block;}
@@ -34,16 +35,16 @@ header .side li:nth-child(1) {text-align: right; padding-bottom: 20px;}
 /*header*/
 /*page1*/
 
-section h2 {font-size: 36px; margin-bottom: 40px; font-family: "Exo 2"; font-weight: 600;}
+section h2 {font-size: 36px; margin-bottom: 40px; font-family: "Titillium Web"; font-weight: 600;}
 section h2 div {width: 27px; height: 8px;background: #353b48;float: left;margin-top: 20px;margin-right: 15px;}
-section .title {border-bottom: 2px solid #333; width: 100%; font-family: "Exo 2";margin-bottom: 20px;}
+section .title {border-bottom: 2px solid #333; width: 100%; font-family: "Titillium Web";margin-bottom: 20px;}
 section .title h3 {line-height: 40px; font-size: 24px; font-weight: 500;}
 
 /*page*/
 /*side*/
 body > div.side {position: fixed; bottom: 1%;left: -50px;width: calc(100vh - 180px);height: 50px;padding-right: 5px;overflow: hidden;padding-left: 10px;transform: rotate(-90deg);transform-origin: left top;padding-bottom: 2px;}
 body > div.side ul {width: 100%;height: 100%;display: flex;flex-flow: row nowrap;justify-content: space-around;border-bottom: 1px solid #ccc;}
-body > div.side ul li {margin-left: 4%;margin-right: 4%;padding-top: 15px;padding-bottom: 14px;font-size: 14px;font-family: "Exo 2";color: #ccc;cursor: pointer;}
+body > div.side ul li {margin-left: 4%;margin-right: 4%;padding-top: 15px;padding-bottom: 14px;font-size: 14px;font-family: "Titillium Web";color: #ccc;cursor: pointer;}
 body > div.side ul li span {display: block; width: 0;height: 3px;background: #333;margin-top: 14px;z-index: 5; margin: 14px auto;}
 body > div.side ul li .on {color:#000;}
 body > div.side ul li:hover {color:#000;}
@@ -52,7 +53,7 @@ section#page1 {position: relative; background: url("../img/violet.jpg") 50% 50% 
 section#page1 h1 a{font-size: 28px; color:#000;}
 section#page1 h1 a:hover{font-size: 28px; color:#0652DD;}
 section#page1 div.box {position: relative;width: 40%;top: 24%;left: 26%;text-align: center;}
-section#page1 div.box span  {position: absolute; top: 280px; left:20%; font-size: 90px;font-family: "Exo 2";font-weight: 100;}
+section#page1 div.box span  {position: absolute; top: 280px; left:20%; font-size: 90px;font-family: "Titillium Web";font-weight: 100;}
 section#page1 div.box div {position: absolute;opacity: 0;}
 section#page1 div#down {position: absolute;top: 87%;left: 45%;}
 section#page1 div#down img {width: 90%;}
@@ -66,7 +67,7 @@ section#page2 div.wrap {display: flex;flex-flow: column wrap;width: 100%; height
 section#page2 div.wrap #profile {width:30%;height: 45%; margin-bottom: 1%;margin-right: 5%;}
 section#page2 div.wrap #profile table {width:100%;}
 section#page2 div.wrap #profile table tr {height: 45px;}
-section#page2 div.wrap #profile table td:nth-child(1) {width:35%;font-family: "Exo 2";}
+section#page2 div.wrap #profile table td:nth-child(1) {width:35%;font-family: "Titillium Web";}
 section#page2 div.wrap #profile table td:nth-child(2) {font-family: "Nanumgothic";}
 section#page2 div.wrap #likes {width: 30%; height: 27%;margin-right: 5%;}
 section#page2 div.wrap #likes ul {width:100%; padding-top: 20px; display: flex;flex-flow: wrap;justify-content: space-between;}
@@ -108,7 +109,7 @@ section#page3 div.wrap #edu table td#long {background: url(../img/date2.png) rig
 section#page3 div.wrap #license {width: 25%;margin-left: 15%;}
 section#page3 div.wrap #license table {width: 100%;margin-left: 10px;}
 section#page3 div.wrap #license table tr {height: 50px;}
-section#page3 div.wrap #license table td:nth-child(1) {width: 30%; font-family: "Exo 2"; font-size: 17px;}
+section#page3 div.wrap #license table td:nth-child(1) {width: 30%; font-family: "Titillium Web"; font-size: 17px;}
 section#page3 div.wrap #license table td:nth-child(2) {font-size: 15px;}
 
 section#page4 section > div {width: 100%; height: 700px;}
